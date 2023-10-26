@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #182c61;
+    color: rgb(200, 200, 200);
+    padding: 16px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho img {
+    width: 64px;
+    border-radius: 8px;
+}
+
+.paginacao {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+    text-transform: uppercase;
+    gap: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.paginacao li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 1024px;
+    max-width: 100%;
+    background-color: #e6e6e6;
+    margin: 0 auto;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas com tamanhos iguais */
+    grid: 16px;
+}
+
+.carros {
+    border: 1px solid #000;
+    border-radius: 8px;
+    width: 320px;
+    margin: 16px auto;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contatos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 16px auto;
+}
+
+.contatos-CEP {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 16px auto;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #182c61;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    cursor: pointer;
+
+}
+
+form button:hover {
+    background-color: #18378c;
+}
+
+input:focus ,textarea:focus {
+    outline-color: #19045b;
+}   
+
+.logo {
+    width: 32px;
+}
+
+.brands-list {
+    display: flex;
+    align-items: flex-end; 
+    justify-content: space-evenly;
+}
+
+.brands-list li {
+    list-style: none;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #182c61;
+    color: rgb(200, 200, 200);
+    padding: 16px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
